@@ -1,0 +1,4 @@
+# Locust-based synthetic traffic generator.
+# Test/perf tooling, owned by the platform/SRE team that runs load
+# experiments and reliability tests against the stack.
+*   @wallmart-poc/platform-sre

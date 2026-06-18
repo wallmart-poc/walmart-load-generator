@@ -1,0 +1,19 @@
+{
+  "identifier": "walmart-load-generator",
+  "title": "Load Generator",
+  "blueprint": "service",
+  "properties": {
+    "lifecycle": "production",
+    "criticality": "low",
+    "slack_channel": "#platform-sre",
+    "type": "worker",
+    "tier": "platform",
+    "language": "Python",
+    "region": ["us-east-1"]
+  },
+  "relations": {
+    "depends_on": [
+      "walmart-frontend"
+    ]
+  }
+}
